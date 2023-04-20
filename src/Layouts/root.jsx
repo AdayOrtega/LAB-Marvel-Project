@@ -8,7 +8,7 @@ function Root(){
         <>
         <Header title='Marvel Page Project' />
         <Outlet/>
-        <Footer name='AdayOrtega@2023'/>
+        <Footer /* name='AdayOrtega@2023' *//>
         
         </>
     )

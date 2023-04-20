@@ -1,12 +1,14 @@
-.footer {
-    display:flex;
+/* .footer {
+    position: fixed;
     background-color: Blue;
     width: 100vw;
-    height: 35px;
-    justify-content: center;
+    max-height: 35px;
+    text-align: center;
     color: white;
     font-size: 15px;
     line-height: 0.5px;
     padding: 5px 0px;
     border: 0px;
+    bottom: 150px;
 } 
+ */

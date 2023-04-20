@@ -1,3 +1,7 @@
 .comic {
-    height: 100%;
-}
+    display:contents;
+   
+    height: 100vh;
+    overflow-y: auto;
+    
+} 
