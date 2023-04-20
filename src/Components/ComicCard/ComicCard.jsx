@@ -1,15 +1,19 @@
 import React from "react";
-import './ComicCard.css'
-import getOneComic from "../../Services/getOneComic";
+import './ComicCard.css';
 
+function ComicCard({ result }) {
+  console.log(result);
 
-function ComicCard (result){
-   console.log(result)
-   return (
-     <div className="result">
-       {result.result.id}
-     </div>
-   )
+  return (
+    <div className="result">
+      {result && result.results && result.results.map(character => (
+        <div key={character.id}>
+          <ul>{character.name} Resultado</ul>
+          <img src={character.image} alt={character.name} />
+        </div>
+      ))}
+    </div>
+  );
 }
 
-export default ComicCard
+export default ComicCard;
