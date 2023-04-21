@@ -3,7 +3,7 @@ import { blue } from '@mui/material/colors'
 import {Button, Card, CardActions, CardContent, CardHeader,Divider,IconButton,TextField} from '@mui/material'
 import React, { useState } from 'react'
 import { Email, VisibilityOff,Lock, Visibility } from '@mui/icons-material'
-
+import './loging.css'
 function Loging() {
 
   const [isPassVisible, setIsPassVisible] = useState(false)
@@ -13,7 +13,7 @@ function Loging() {
   }
   return (
     <>
-      <div className='containerLoging'>
+      <div className="containerLoging">
         <Card sx={{ width: '700px', backgroundColor: blue[100] }} raised={true}>
           <CardHeader title="Login"> </CardHeader>
           <CardContent>

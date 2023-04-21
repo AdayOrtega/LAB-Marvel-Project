@@ -1,7 +1,7 @@
 import api from "./config";
 
-const getOneComic = async(query)=>{
-const comics = await api.get(`/character`)
+const getOneCharacter = async (query) => {
+  const character = await api.get('/character')
   /* {
     params: {
       apikey: 'ab1dbdd9aa8e6587f193f4fa030fd1c4',
@@ -10,7 +10,7 @@ const comics = await api.get(`/character`)
     },
   } */
 
-return comics.data
+  return character.data
 }
 
-export default getOneComic
+export default getOneCharacter

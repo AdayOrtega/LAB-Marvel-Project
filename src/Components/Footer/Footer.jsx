@@ -23,14 +23,14 @@ function generateFooterElements() {
       return (
         <Grid item xs={12} md={4}>
           <Box borderBottom={1}>
-            <Button sx={{fontSize:12 , color: 'white', fontWeight: 'bold' }}>
+            <Button sx={{fontSize:9 , color: 'white', fontWeight: 'bold'}}>
               {column.header}
             </Button>
           </Box>
           {column.links.map((link) => {
             return (
               <Box>
-                <Button sx={{fontSize: 10 , color: 'white' }}>{link}</Button>
+                <Button sx={{fontSize: 9, color: 'white' }}>{link}</Button>
               </Box>
             )
           })}
@@ -42,7 +42,7 @@ function generateFooterElements() {
 
   return (
     <footer className='footer'>
-      <Box sx={{marginBottom:0, position: 'fixed', bottom: 0,height: 160, width: "100vw"}} >
+      <Box sx={{marginBottom:0, position: 'fixed', bottom: 0,height: 151, width: "100vw"}} >
       <Box bgcolor="primary.main" color="white" padding={1} >
         <Container>
           <Grid container columnSpacing={2}>
